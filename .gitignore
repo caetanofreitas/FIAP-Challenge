@@ -61,3 +61,39 @@ api/!.vscode/tasks.json
 api/!.vscode/launch.json
 api/!.vscode/extensions.json
 api/sql.db
+
+# APP
+
+# dependencies
+app/node_modules/
+
+# Expo
+app/.expo/
+app/dist/
+app/web-build/
+
+# Native
+app/*.orig.*
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+
+# Metro
+app/.metro-health-check*
+
+# debug
+app/npm-debug.*
+app/yarn-debug.*
+app/yarn-error.*
+
+# macOS
+app/.DS_Store
+app/*.pem
+
+# local env files
+app/.env*.local
+
+# typescript
+app/*.tsbuildinfo
