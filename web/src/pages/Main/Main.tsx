@@ -80,7 +80,7 @@ const Main = () => {
 
   return (
     <MainWrapper>
-      <h2>Main</h2>
+      <h2>To-do</h2>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>
